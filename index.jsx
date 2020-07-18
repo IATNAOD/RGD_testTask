@@ -6,6 +6,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { createBrowserHistory } from 'history';
 
 import 'babel-polyfill';
+import 'semantic-ui-css/semantic.min.css'
 import './css/style.css';
 
 import createStore from './store/createStore';

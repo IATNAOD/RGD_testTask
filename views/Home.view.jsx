@@ -1,18 +1,12 @@
 import React from 'react';
-import { connect } from 'react-redux'
 
-import HomeContainer from '../containers/Home/Home.container';
+import HomePage from '../containers/Home/index.jsx';
 
 import { } from '../store/actions/main.actions'
 
-export default connect((s) => ({
+export default ({
+  buyTickets
+}) => {
 
-}), {
-})(
-  ({
-  }) => {
-
-    return <HomeContainer />;
-
-  }
-)
+  return <HomePage buyTickets={buyTickets} />;
+};

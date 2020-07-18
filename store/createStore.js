@@ -10,7 +10,7 @@ import sagas from './sagas';
 const persistConfig = {
   key: 'iatnaod',
   storage,
-  blacklist: [''],
+  blacklist: ['main'],
 };
 
 const loggerActionColors = {
